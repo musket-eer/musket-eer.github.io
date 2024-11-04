@@ -6,7 +6,10 @@ body {
     margin: 0;
     padding: 0;
 }
-
+body.dark-theme {
+    background-color: #222222;
+    color: #ffffff;
+}
 /* Header Styling */
 header {
     background-color: #800020;
