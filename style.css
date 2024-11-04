@@ -1,0 +1,78 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styling */
+header {
+    background-color: #800020;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Project Cards */
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.project-card {
+    background-color: #e6c3c3;
+    border-radius: 8px;
+    width: 300px;
+    margin: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+    cursor: pointer;
+    color: #333;
+    text-align: center;
+}
+
+.project-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.project-card h2 {
+    color: #800020;
+}
+
+.project-card p {
+    opacity: 0.7;
+    transition: opacity 0.3s;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+}
+
+.project-card:hover p {
+    opacity: 1;
+}
+
+/* Blog Section */
+#blog {
+    text-align: center;
+    margin: 40px 0;
+    padding: 20px;
+    background-color: #f2e3e3;
+}
+
+#blog h2 {
+    color: #800020;
+}
+
+#blog p {
+    font-size: 1.1em;
+    opacity: 0.8;
+}
