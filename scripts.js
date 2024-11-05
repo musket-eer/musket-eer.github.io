@@ -10,6 +10,10 @@ document.getElementById("myForm").addEventListener("submit", function(event) {
 document.getElementById("redirectButton").addEventListener("click", function() {
     window.location.href = "https://example.com";
 });
+// Define the redirectTo function
+function redirectTo(page) {
+    window.location.href = page;
+}
 
 // Time Spent on Site
 let startTime = Date.now();
