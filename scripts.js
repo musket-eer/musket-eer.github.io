@@ -6,10 +6,6 @@ document.getElementById("myForm").addEventListener("submit", function(event) {
     console.log("Form Submitted:", data);
 });
 
-// Redirection
-document.getElementById("redirectButton").addEventListener("click", function() {
-    window.location.href = "https://example.com";
-});
 // Define the redirectTo function
 function redirectTo(page) {
     window.location.href = page;
@@ -44,10 +40,6 @@ document.getElementById("myForm").addEventListener("submit", function(event) {
     console.log("Form Submitted:", data);
 });
 
-// Redirection
-document.getElementById("redirectButton").addEventListener("click", function() {
-    window.location.href = "https://example.com";
-});
 
 // Time Spent on Site
 window.addEventListener("beforeunload", function() {
