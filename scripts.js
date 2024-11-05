@@ -46,8 +46,8 @@ document.getElementById("redirectButton").addEventListener("click", function() {
 });
 
 // Time Spent on Site
-let startTime = Date.now();
 window.addEventListener("beforeunload", function() {
+    let startTime = Date.now();
     const timeSpent = Math.floor((Date.now() - startTime) / 1000);
     console.log("Time spent on site:", timeSpent, "seconds");
 });

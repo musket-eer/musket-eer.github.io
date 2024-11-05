@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Binary Trading Automation</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to your main CSS file -->
+</head>
+<body>
+
+    <header>
+        <h1>Binary Trading Automation</h1>
+        <p>This project developed a live trading bot to interact with the Olymp Trade platform, simulating human trading actions.</p>
+    </header>
+
+    <section id="overview">
+        <h2>Project Overview</h2>
+        <p>Binary trading automation project created a live trading bot that interacted with the Olymp Trade platform to simulate a human trader.</p>
+    </section>
+
+    <section id="motivation-objectives">
+        <h2>Motivation and Objectives</h2>
+        <ul>
+            <li>Idea conceived due to long hours spent manually trading on the Olymp Trade platform.</li>
+            <li>Goal: Create a trading bot to run from 8 AM to 4 PM, freeing up time for other tasks while the bot trades on my behalf.</li>
+        </ul>
+    </section>
+
+    <section id="technical-stack">
+        <h2>Technical Stack</h2>
+        <p>Technologies and Tools Used:</p>
+        <ul>
+            <li>Python, PyTesseract, PyAutoGUI, OpenCV, NumPy, Pillow</li>
+        </ul>
+        <p>These libraries enabled GUI simulation to interact with the platform without an API.</p>
+    </section>
+
+    <section id="architecture-design">
+        <h2>Architecture and Design</h2>
+        <p>The architecture was designed to enable efficient, automated trading operations and handle various trading scenarios.</p>
+        <img src="images/architecture-diagram.png" alt="Architecture Diagram of Binary Trading Automation Bot" width="100%">
+    </section>
+
+    <section id="features-functionality">
+        <h2>Core Features and Functionality</h2>
+        <ul>
+            <li>Extract account balance from screen using pixel coordinates.</li>
+            <li>Enter trade amounts by selecting text areas on the screen and typing a floating point number.</li>
+            <li>Simulate mouse movement and clicks to pick trades based on coordinates.</li>
+            <li>Exit trading loop when network slowdowns are detected.</li>
+            <li>Log each trade for performance review and refinement.</li>
+        </ul>
+        <p>These features enabled autonomous trading and real-time monitoring, fulfilling the project’s main objectives.</p>
+    </section>
+
+    <section id="challenges-solutions">
+        <h2>Challenges and Solutions</h2>
+        <p><strong>Challenge:</strong> Text extraction due to platform UI and fonts.</p>
+        <p><strong>Solution:</strong> Applied color inversions using Pillow libraries to enhance contrast for accurate text extraction.</p>
+        <p><strong>Challenge:</strong> Detecting network slowdowns.</p>
+        <p><strong>Solution:</strong> Measured account balance before and after each trade. No change in balance within the timeframe indicated a network issue.</p>
+    </section>
+
+    <section id="testing-quality-assurance">
+        <h2>Testing and Quality Assurance</h2>
+        <p>Tested text extraction on various screenshots to ensure accuracy. Live-tested on a demo trading account, achieving an average daily profit of 2%.</p>
+    </section>
+
+    <section id="conclusion">
+        <h2>Conclusion</h2>
+        <p>This project is no longer under active maintenance.</p>
+    </section>
+
+    <footer>
+        <p><a href="index.html">Back to Portfolio</a></p>
+    </footer>
+
+</body>
+</html>
