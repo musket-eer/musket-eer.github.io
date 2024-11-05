@@ -61,3 +61,4 @@ document.getElementById("themeToggle").addEventListener("click", function() {
 document.getElementById("fontToggle").addEventListener("click", function() {
     document.body.style.fontFamily = document.body.style.fontFamily === 'Arial' ? 'Times New Roman' : 'Arial';
 });
+it  
