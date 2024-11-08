@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suicide Risk Predictor</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to your main CSS file -->
+</head>
+<body id="blog">
+
+    <header>
+        <h1>Suicide Predictor</h1>
+    </header>
+    <div>
+        <h2>Project Overview</h2>
+        <p>
+            This suicide predictor project trained a perceptron model on textual data sourced from a Kaggle dataset, containing posts extracted from Reddit labeled as either "suicidal" or "non-suicidal."
+        </p>
+
+        <h2>Motivation and Objectives</h2>
+        <p>
+            The project was motivated by the need for tools that could help identify and support individuals showing signs of suicidal ideation online.
+        </p>
+        <p><strong>Goal:</strong> Develop an algorithm capable of detecting suicidal tendencies in text data, with a focus on efficient processing and accuracy improvements.</p>
+
+        <h2>Technical Stack</h2>
+        <p><strong>Technologies and Tools Used:</strong></p>
+        <ul>
+            <li><strong>Perceptron Model</strong>: Core model for binary classification.</li>
+            <li><strong>Sentiment Analysis</strong>: Integrated to enhance model accuracy by providing emotional context.</li>
+            <li><strong>Parallel Processing</strong>: Accelerated training time by utilizing parallelism in data processing and model training.</li>
+            <li><strong>Text Preprocessing</strong>: Removed special characters and irrelevant data to improve the quality of training data.</li>
+        </ul>
+
+        <h2>Architecture and Design</h2>
+        <p>
+            The architecture incorporated both the perceptron model and sentiment analysis, combining a binary classifier with emotional insights to achieve more accurate predictions.
+        </p>
+
+        <h2>Core Features and Functionality</h2>
+        <ul>
+            <li><strong>Data Preprocessing</strong>: Cleaned text data by removing special characters, symbols, and other irrelevant elements.</li>
+            <li><strong>Sentiment Analysis Integration</strong>: Enhanced the perceptron’s accuracy by adding emotional sentiment context to the input data.</li>
+            <li><strong>Parallel Processing</strong>: Improved training efficiency by enabling parallelism during data handling and model training.</li>
+        </ul>
+
+        <h2>Challenges and Solutions</h2>
+        <ul>
+            <li>
+                <strong>Text Preprocessing on Noisy Data</strong><br>
+                <strong>Challenge</strong>: Handling diverse and unstructured Reddit text.<br>
+                <strong>Solution</strong>: Employed rigorous text preprocessing to remove noise, making the data more suitable for training.
+            </li>
+            <li>
+                <strong>Enhancing Model Accuracy</strong><br>
+                <strong>Challenge</strong>: The perceptron model alone had limitations in accurately capturing complex emotional cues.<br>
+                <strong>Solution</strong>: Combined sentiment analysis with the perceptron to improve accuracy, though future versions may benefit from more sophisticated neural network architectures.
+            </li>
+        </ul>
+
+        <h2>Collaboration</h2>
+        <p>This project was developed in collaboration with <strong>John Doe</strong>, whose contributions were instrumental in enhancing the sentiment analysis component and optimizing the parallel processing for faster model training.</p>
+
+        <h2>Conclusion</h2>
+        <p>
+            The suicide predictor project successfully demonstrated the use of a perceptron model with sentiment analysis to identify suicidal text patterns. However, further improvements in accuracy would benefit from leveraging neural networks to capture deeper linguistic and contextual insights.
+        </p>
+    </div>
+    <footer>
+        <p><a href="index.html">Back to Portfolio</a></p>
+    </footer>
+    <script src="scripts.js"></script>
+
+</body>
+</html>
