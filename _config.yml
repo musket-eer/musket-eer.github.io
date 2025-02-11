@@ -1,0 +1,9 @@
+theme: minima
+title: Portfolio
+description: Software Engineering Portfolio.
+show_excerpts: true
+plugins:
+  - jekyll-feed
+
+header_pages:
+  - main.md
