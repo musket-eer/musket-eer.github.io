@@ -11,3 +11,9 @@ header_pages:
 include:
   - index.md
 
+defaults:
+  - scope:
+      path: "index.md"
+    values:
+      permalink: /index/
+
