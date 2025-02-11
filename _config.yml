@@ -6,8 +6,8 @@ plugins:
   - jekyll-feed
 
 header_pages:
-  - main.md
+  - index.md
 
 include:
-  - main.md
+  - index.md
 
