@@ -3,7 +3,7 @@
 ## 👋 About Me
 I'm a **passionate software engineer** with experience across the **entire** software development lifecycle. From coursework to internships to personal projects—I've done it all. Some of these projects? They exist **purely** so this portfolio has something to show off. 
 
-I love **automation, AI, and building tools** that actually solve problems (or at least make life interesting). If it can be coded, optimized, or hacked into existence, I’m probably working on it.
+I love **automation, AI, and building tools** that solve problems (or at least make life interesting). If it can be coded, optimized, or hacked into existence, I’m probably working on it.
 
 ---
 
