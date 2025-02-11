@@ -1,4 +1,6 @@
 theme: minima
+title: Portfolio
+description: 
 show_excerpts: true
 plugins:
   - jekyll-feed
